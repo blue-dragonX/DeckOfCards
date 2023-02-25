@@ -1,7 +1,7 @@
 public class Card {
-    private int cardNumber;
+    private final int cardNumber;
     private char cardStatus; //J,Q,K,A if needed
-    private String cardSuit;
+    private final String cardSuit;
 
     public Card(int cardNumber,String cardSuit){
         this.cardNumber=cardNumber;
